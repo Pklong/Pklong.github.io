@@ -1,0 +1,11 @@
+#stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1A3742;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183));
+  background-image: -webkit-linear-gradient(top, #1A3742, #9EA183);
+  background-image: -moz-linear-gradient(top, #1A3742, #9EA183);
+  background-image: -ms-linear-gradient(top, #1A3742, #9EA183);
+  background-image: -o-linear-gradient(top, #1A3742, #9EA183);
+}
