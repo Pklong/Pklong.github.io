@@ -202,7 +202,7 @@ header {
     margin: 80px auto 15px;
     width: 175px;
     height: 175px;
-    border: 1px solid #fff;
+    border: 2px solid #f05f40;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -215,6 +215,7 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    text-shadow: 1px 1px 2px #f05f40;
 }
 
 header .header-content .header-content-inner h1 {
@@ -291,7 +292,7 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 1000px;
 }
 
 .portfolio-box .portfolio-box-caption {
