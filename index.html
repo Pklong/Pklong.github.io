@@ -6,36 +6,47 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Portfolio Site">
+    <meta name="author" content="Patrick Kovach-Long">
 
     <title>Patrick Kovach-Long</title>
     <style>
-    #dots {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: #1A3742;
-      background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183));
-      background-image: -webkit-linear-gradient(top, #1A3742, #9EA183);
-      background-image: -moz-linear-gradient(top, #1A3742, #9EA183);
-      background-image: -ms-linear-gradient(top, #1A3742, #9EA183);
-      background-image: -o-linear-gradient(top, #1A3742, #9EA183);
-    }
+     #dots {
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: #1A3742;
+       background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183));
+       background-image: -webkit-linear-gradient(top, #1A3742, #9EA183);
+       background-image: -moz-linear-gradient(top, #1A3742, #9EA183);
+       background-image: -ms-linear-gradient(top, #1A3742, #9EA183);
+       background-image: -o-linear-gradient(top, #1A3742, #9EA183);
+     }
 
-    #author {
-        color: #9EA183;
-        opacity: 0.1;
-        font-size: 2em;
-        font-family: monospace;
-        font-weight: 200;
-        letter-spacing: 42px;
-        text-align: center;
-        z-index: 2;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
+     #author {
+       color: #9EA183;
+       opacity: 0.1;
+       font-size: 2em;
+       font-family: monospace;
+       font-weight: 200;
+       letter-spacing: 42px;
+       text-align: center;
+       z-index: 2;
+       position: fixed;
+       top: 5px;
+       left: 5px;
+       transition: opactity 1s ease-out;
+     }
+
+     #author:hover {
+       transition: opacity 1s ease-in;
+       opacity: 1;
+     }
+
+     p:hover {
+       background: #ffff33;
+       opacity: 1;
+     }
 
     </style>
 
@@ -55,10 +66,12 @@
 </head>
 
 <body>
-    <p id="author">
-        PKL
-    </p>
-        <canvas id='dots'></canvas>
+  <div id="author">
+    <p>P</p>
+    <p>K</p>
+    <p>L</p>    
+  </div>
+  <canvas id='dots'></canvas>
 </body>
 
 </html>
